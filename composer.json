@@ -1,0 +1,15 @@
+{
+    "name": "maximaster/bitrix-cli-commands",
+    "description": "Консольные команды для работы с Битрикс совместимые с symfony/console.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maximaster\\BitrixCliCommands\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "7.*",
+        "maximaster/bitrix-loader": "^1.1.0"
+    },
+    "authors": [{"name": "Лавриненко Максим", "email": "maxim.lavrinenko@maximaster.ru"}]
+}
