@@ -1,6 +1,8 @@
 {
     "name": "maximaster/bitrix-cli-commands",
     "description": "Консольные команды для работы с Битрикс совместимые с symfony/console.",
+    "minimum-stability": "RC",
+    "prefer-stable": true,
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -8,8 +10,10 @@
         }
     },
     "require": {
+        "php": ">8.2",
         "symfony/console": "7.*",
-        "maximaster/bitrix-loader": "^1.1.0"
+        "maximaster/bitrix-loader": "^1.1.0",
+        "maximaster/bitrix-enums": "^18.5@RC"
     },
     "authors": [{"name": "Лавриненко Максим", "email": "maxim.lavrinenko@maximaster.ru"}]
 }
