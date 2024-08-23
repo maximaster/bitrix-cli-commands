@@ -13,7 +13,7 @@ use Bitrix\Main\LoaderException;
 use CBitrixComponent;
 use InvalidArgumentException;
 use Maximaster\BitrixEnums\Main\CacheType;
-use Maximaster\BitrixEnums\Main\Module;
+use Maximaster\BitrixEnums\Main\ModuleId;
 use Maximaster\BitrixLoader\BitrixLoader;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -59,9 +59,6 @@ class ClearCacheCommand extends Command
         );
     }
 
-    /**
-     * @throws LoaderException
-     */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $this->bitrixLoader->prologBefore();
@@ -123,7 +120,7 @@ class ClearCacheCommand extends Command
      */
     private function clearLandingCache(): void
     {
-        if (Loader::includeModule(Module::LANDING)) {
+        if (Loader::includeModule(ModuleId::LANDING)) {
             Block::clearRepositoryCache();
         }
     }

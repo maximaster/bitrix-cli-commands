@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f84237d4ac18ad577c315d49082d401d",
+    "content-hash": "1cbda2e9cb6347862473d380f3eebb43",
     "packages": [
         {
             "name": "maximaster/bitrix-enums",
-            "version": "v18.5.180-rc.3",
+            "version": "v18.5.180-rc.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maximaster/bitrix-enums.git",
-                "reference": "208382dc7284db8e7bf4974ae0db5c79a49d4a2e"
+                "reference": "b465c937a0905afb884d406f597e17e8acf7e24c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maximaster/bitrix-enums/zipball/208382dc7284db8e7bf4974ae0db5c79a49d4a2e",
-                "reference": "208382dc7284db8e7bf4974ae0db5c79a49d4a2e",
+                "url": "https://api.github.com/repos/maximaster/bitrix-enums/zipball/b465c937a0905afb884d406f597e17e8acf7e24c",
+                "reference": "b465c937a0905afb884d406f597e17e8acf7e24c",
                 "shasum": ""
             },
             "require": {
@@ -45,9 +45,9 @@
             "description": "Предоставляет перечисления относящиеся к Битрикс, чтобы не использовать в коде строки или числа или знать о перечислениях Битрикса не подключая сам Битрикс (например не-Битрикс проектов которые обращаются к Битрикс по API)",
             "support": {
                 "issues": "https://github.com/maximaster/bitrix-enums/issues",
-                "source": "https://github.com/maximaster/bitrix-enums/tree/v18.5.180-rc.3"
+                "source": "https://github.com/maximaster/bitrix-enums/tree/v18.5.180-rc.4"
             },
-            "time": "2024-08-22T14:39:49+00:00"
+            "time": "2024-08-23T09:51:00+00:00"
         },
         {
             "name": "maximaster/bitrix-loader",
@@ -946,10 +946,14 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "RC",
-    "stability-flags": [],
+    "stability-flags": {
+        "maximaster/bitrix-enums": 5
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">8.2"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
