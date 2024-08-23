@@ -1,0 +1,46 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "php82Packages.composer@latest": {
+      "last_modified": "2024-08-20T09:32:23Z",
+      "resolved": "github:NixOS/nixpkgs/a04eac9c5aa7f82e02d6e9e0b203b6eb5704c141#php82Packages.composer",
+      "source": "devbox-search",
+      "version": "2.7.7",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/ywyy70l83nnvkwhrxcpn98jmb4hw6f85-composer-2.7.7"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/ljv9j6p8kyx7s11casmkjbzq9g7p9hx8-composer-2.7.7"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/d1mbgczk6jla9cfp0gvnbcl2bai8srwr-composer-2.7.7"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/19nk6m6mhw3171zc5s71xqd268mml88w-composer-2.7.7"
+        }
+      }
+    },
+    "php@8.2": {
+      "last_modified": "2024-08-14T11:41:26Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/0cb2fd7c59fed0cd82ef858cbcbdb552b9a33465#php",
+      "source": "devbox-search",
+      "version": "8.2.22",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/z7rg17x38w2ya6789ivjc8ci5mib8lyf-php-with-extensions-8.2.22"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/2f8xccpnqimqfrwg0qccrz7vhk8fxn56-php-with-extensions-8.2.22"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/0bijgrbc3m0s7vg8fgp7wbq74jd5wc17-php-with-extensions-8.2.22"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/sprs4lwjg2af4qpnvnsz6mblb3m175yd-php-with-extensions-8.2.22"
+        }
+      }
+    }
+  }
+}
