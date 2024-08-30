@@ -2,7 +2,12 @@
 
 Консольные команды для работы с Битрикс совместимые с `symfony/console`.
 
-* `bitrix:cache:clear` - удалить кеш.
+* `main` модуль:
+  * `bitrix:cache:clear` - удалить кеш;
+  * `bitrix:main:mark-dangled-files` - удалить неиспользуемые файлы из b_file;
+* `im` модуль:
+  * `bitrix:im:delete-chats` - удалить чаты, кроме указанных;
+  * `bitrix:im:delete-messages` - удалить все сообщения из чатов.
 
 ## Подключение
 
