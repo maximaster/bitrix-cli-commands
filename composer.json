@@ -11,9 +11,12 @@
     },
     "require": {
         "php": ">8.2",
-        "symfony/console": "7.*",
         "maximaster/bitrix-loader": "^1.1.0",
-        "maximaster/bitrix-enums": "^18.5@RC"
+        "maximaster/bitrix-enums": "^18.5@RC",
+        "maximaster/bitrix-unstatic": "^1.0",
+        "maximaster/bitrix-table-classes": "^1.0",
+        "symfony/console": "7.*",
+        "symfony/finder": "7.*"
     },
     "authors": [{"name": "Лавриненко Максим", "email": "maxim.lavrinenko@maximaster.ru"}]
 }
