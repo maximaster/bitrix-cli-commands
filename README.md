@@ -2,12 +2,19 @@
 
 Консольные команды для работы с Битрикс совместимые с `symfony/console`.
 
+* `im` модуль:
+  * `bitrix:im:delete-chats` - удалить чаты, кроме указанных;
+  * `bitrix:im:delete-messages` - удалить все сообщения из чатов;
 * `main` модуль:
   * `bitrix:cache:clear` - удалить кеш;
   * `bitrix:main:mark-dangled-files` - удалить неиспользуемые файлы из b_file;
-* `im` модуль:
-  * `bitrix:im:delete-chats` - удалить чаты, кроме указанных;
-  * `bitrix:im:delete-messages` - удалить все сообщения из чатов.
+* `perfmon` модуль:
+  * `bitrix:perfmon:clear` - очистить данные собранные монитором
+    производительности;
+  * `bitrix:perfmon:configure` - очистить данные собранные монитором
+    производительности;
+  * `bitrix:perfmon:disable` - отключить монитор производительности;
+  * `bitrix:perfmon:enable` - включить монитор производительности.
 
 ## Подключение
 
